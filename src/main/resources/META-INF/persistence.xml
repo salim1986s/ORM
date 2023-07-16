@@ -6,13 +6,13 @@
         xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
         version="3.0">
 
-    <persistence-unit name="jets.jpa">
+    <persistence-unit name="salim.jpa">
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver" />
             <property name="jakarta.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe" />
-            <property name="jakarta.persistence.jdbc.user" value="amin" />
-            <property name="jakarta.persistence.jdbc.password" value="password" />
+            <property name="jakarta.persistence.jdbc.user" value="orm" />
+            <property name="jakarta.persistence.jdbc.password" value="Salimss@1986" />
 
 
             <property name="hibernate.show_sql" value="true" />
